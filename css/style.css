@@ -1,0 +1,147 @@
+/* Poppins Font Family */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+/* Lobster Font Family */
+@import url('https://fonts.googleapis.com/css2?family=Lobster&display=swap');
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.navbar-brand{
+    /* text-transform: uppercase; */
+    /* font-family: 'lobster'; */
+    font-family: 'Poppins';
+    font-weight: 300 !important;
+    color: #61cde7 !important;
+}
+.menuitems {
+    font-family: 'Poppins', sans-serif !important;
+    transition: all 0.3s ease;
+}
+.poppinsFont{
+    font-family: Poppins;
+}
+.menuitems:hover {
+    color: #61cde7 !important; /* Change color on hover */
+}
+
+.navbar-nav .nav-item {
+    position: relative;
+}
+
+.nav-link::after {
+    content: '';
+    position: absolute;
+    bottom: 2px;
+    left: 0;
+    width: 0;
+    height: 2px;
+    background-color: #61cde7; /* Line color */
+    transition: all 0.3s ease;
+}
+
+.nav-link:hover::after {
+    width: 100%;
+}
+.navbar-toggler{
+    background-color: #61cde7 !important;
+}
+.home-img img {
+    max-width: 100%;
+    height: auto;
+}
+
+@media (max-width: 768px) {
+    .home-text {
+        text-align: center;
+    }
+}
+/* Hide the cursor initially */
+.cursor {
+    opacity: 0;
+}
+
+/* Keyframe animation for blinking cursor */
+@keyframes blink-caret {
+    from, to {
+        opacity: 0;
+    }
+    50% {
+        opacity: 1;
+    }
+}
+
+.headingmaster{
+    color: #61cde7 !important;
+}
+.mybutton {
+    background-color: #61cde7 !important;
+    color: white !important;
+    font-weight: 600 !important;
+    font-size: 1.2rem !important;
+    transition: transform 0.3s, box-shadow 0.5s, color 0.3s; /* Add transitions for smooth effect */
+    border: none;
+    cursor: pointer;
+    padding: 10px 20px;
+    border-radius: 5px;
+}
+
+.mybutton:hover {
+    transform: translateY(-3px); /* Move the button slightly up */
+    box-shadow: 0 5px 15px rgba(48, 48, 48, 0.3); /* Add a subtle shadow */
+    color: #f8f9fa; /* Change text color on hover */
+}
+
+.cards img{
+    height: 200px !important; 
+    width: 100%;
+    object-fit: cover;
+    /* border-radius: 10px; */
+
+}
+
+.linker{
+    text-decoration: none;
+    color: #61cde7;
+    font-weight: 700;
+    text-decoration: underline;
+}
+.freesection{
+    background-color: #61cde7;
+    color: white !important;
+}
+.freesection button{
+    border: 2px solid white;
+    border-radius: 5px;
+    padding: 10px 20px;
+    background-color: transparent;
+    color: white !important;
+    font-weight: 500;
+}
+/* Custom styles for carousel control buttons */
+.carousel-control-prev,
+.carousel-control-next {
+    width: 50px !important; /* Adjust width as needed */
+    height: 50px !important; /* Adjust height as needed */
+    background-color: #61cde7 !important; /* Button background color */
+    /* border: 2px solid #ced4da !important; Button border color */
+    border-radius: 50% !important; /* Make the button circular */
+    position: absolute !important; /* Position the buttons */
+    top: 50% !important; /* Position at vertical center */
+    opacity: 1 !important;
+    transform: translateY(-50%) !important; /* Adjust vertical position */
+    z-index: 1000 !important;
+}
+
+@media (max-width: 780px) {
+    .carousel-control-prev,
+    .carousel-control-next {
+        display: none !important; /* Hide the buttons when screen width is less than 780px */
+    }
+}
+
+
+
+
