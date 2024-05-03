@@ -14,7 +14,7 @@
     /* font-family: 'lobster'; */
     font-family: 'Poppins';
     font-weight: 300 !important;
-    color: #61cde7 !important;
+    color: #564c41 !important;
 }
 .menuitems {
     font-family: 'Poppins', sans-serif !important;
@@ -24,7 +24,7 @@
     font-family: Poppins;
 }
 .menuitems:hover {
-    color: #61cde7 !important; /* Change color on hover */
+    color: #564c41 !important; /* Change color on hover */
 }
 
 .navbar-nav .nav-item {
@@ -38,7 +38,7 @@
     left: 0;
     width: 0;
     height: 2px;
-    background-color: #61cde7; /* Line color */
+    background-color: #564c41; /* Line color */
     transition: all 0.3s ease;
 }
 
@@ -46,7 +46,7 @@
     width: 100%;
 }
 .navbar-toggler{
-    background-color: #61cde7 !important;
+    background-color: #564c41 !important;
 }
 .home-img img {
     max-width: 100%;
@@ -74,10 +74,10 @@
 }
 
 .headingmaster{
-    color: #61cde7 !important;
+    color: #564c41 !important;
 }
 .mybutton {
-    background-color: #61cde7 !important;
+    background-color: #564c41 !important;
     color: white !important;
     font-weight: 600 !important;
     font-size: 1.2rem !important;
@@ -104,12 +104,12 @@
 
 .linker{
     text-decoration: none;
-    color: #61cde7;
+    color: #564c41;
     font-weight: 700;
     text-decoration: underline;
 }
 .freesection{
-    background-color: #61cde7;
+    background-color: #564c41;
     color: white !important;
 }
 .freesection button{
@@ -125,7 +125,7 @@
 .carousel-control-next {
     width: 50px !important; /* Adjust width as needed */
     height: 50px !important; /* Adjust height as needed */
-    background-color: #61cde7 !important; /* Button background color */
+    background-color: #564c41 !important; /* Button background color */
     /* border: 2px solid #ced4da !important; Button border color */
     border-radius: 50% !important; /* Make the button circular */
     position: absolute !important; /* Position the buttons */
